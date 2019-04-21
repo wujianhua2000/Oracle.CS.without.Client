@@ -1,0 +1,76 @@
+
+ORACLE 12 ODAC-XCOPY DLL listing
+
+Oracle 12c ODAC xcopy
+
+	ODAC121024xcopy_32bit.zip		obsolete
+	ODAC121024xcopy_x64.zip			obsolete
+
+last revision
+	ODAC122010xcopy_32bit.zip		new
+	ODAC122010xcopy_x64.zip			new
+
+32 bit version can be used for both 64bit and 32 bit OS.
+
+unzip the zip file you downloaded.
+
+just copy and paste the following files into your project in Visual Studio.
+
+the same directory located Program.cs file.
+
+将  Oracle.DataAccess.dll  添加 reference 
+
+全部文件都 始终复制。
+
+----------------------------------------------------------- 
+
+oci.dll
+
+Oracle.DataAccess.dll
+
+oramts.dll
+oramts12.dll            
+oramtsus.dll
+
+orannzsbb12.dll 
+
+oraocci12.dll  
+oraocci12d.dll 
+
+oraociei12.dll
+
+oraons.dll
+
+OraOps12.dll          
+
+----------------------------------------------------------- 
+下面的代码可以将全部文件列出，并提出日期和尺寸部分。
+
+DIR 	.\Oracle12c\*.* 	/s/w/b 	> oracle-list.txt
+
+pause
+
+----------------------------------------------------------- 
+
+建立一个目录  .\want
+
+copy	.\Oracle12c\instantclient_12_2\oci.dll							.\want
+
+copy	.\Oracle12c\odp.net4\odp.net\bin\4\Oracle.DataAccess.dll		.\want
+
+copy	.\Oracle12c\oramts\bin\oramts.dll								.\want
+copy	.\Oracle12c\oramts\bin\oramtsus.dll								.\want
+copy	.\Oracle12c\oramts\bin\oramts12.dll								.\want
+
+copy	.\Oracle12c\instantclient_12_2\orannzsbb12.dll					.\want
+copy	.\Oracle12c\instantclient_12_2\oraocci12.dll					.\want
+copy	.\Oracle12c\instantclient_12_2\oraocci12d.dll					.\want
+copy	.\Oracle12c\instantclient_12_2\oraociei12.dll					.\want
+copy	.\Oracle12c\instantclient_12_2\oraons.dll						.\want
+
+copy	.\Oracle12c\odp.net4\bin\OraOps12.dll							.\want
+
+pause
+
+----------------------------------------------------------- 
+

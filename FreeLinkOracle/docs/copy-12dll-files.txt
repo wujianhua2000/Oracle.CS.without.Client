@@ -1,0 +1,20 @@
+
+copy	.\Oracle12c\instantclient_12_2\oci.dll							.\want
+
+copy	.\Oracle12c\odp.net4\odp.net\bin\4\Oracle.DataAccess.dll			.\want
+
+copy	.\Oracle12c\oramts\bin\oramts.dll								.\want
+copy	.\Oracle12c\oramts\bin\oramtsus.dll								.\want
+copy	.\Oracle12c\oramts\bin\oramts12.dll								.\want
+
+copy	.\Oracle12c\instantclient_12_2\orannzsbb12.dll					.\want
+copy	.\Oracle12c\instantclient_12_2\oraocci12.dll						.\want
+copy	.\Oracle12c\instantclient_12_2\oraocci12d.dll					.\want
+copy	.\Oracle12c\instantclient_12_2\oraociei12.dll					.\want
+copy	.\Oracle12c\instantclient_12_2\oraons.dll						.\want
+
+copy	.\Oracle12c\odp.net4\bin\OraOps12.dll							.\want
+
+
+
+pause
